@@ -22,6 +22,16 @@ public class PageController {
         return "a1";
     }
 
+
+    /**
+     * 跳转图片分類管理页面
+     */
+    @RequestMapping("/test3")
+    public String test3() {
+
+        return "a1";
+    }
+
     /**
      * 判断用户是否登陆 登陆则进入index页面 没有则跳转 login页面
      *
