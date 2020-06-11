@@ -10,7 +10,7 @@
     </parent>
     <groupId>com</groupId>
     <artifactId>demo22</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>demo22</name>
     <description>Demo project for Spring Boot</description>
 
@@ -50,6 +50,7 @@
     </dependencies>
 
     <build>
+        <finalName>demo22</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
